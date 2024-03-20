@@ -21,7 +21,7 @@ export default class Main {
                 preload: __dirname + '/preload/preload.js'
             }
         });
-        Main.window.loadFile(__dirname + '/public/index.html');
+        Main.window.loadFile(__dirname + '/../public/index.html');
         Main.window.on('closed', Main.onClose);
         Main.window.setMenu(null);
     }
